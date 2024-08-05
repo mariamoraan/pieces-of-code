@@ -22,6 +22,10 @@ export const AppRouting = createBrowserRouter([
             path: Urls.PROFILE,
             element: <ProfilePage />,
           },
+          {
+            path: Urls.HOME,
+            element: <TasksPage />,
+          },
     ]
   },
 ]);
