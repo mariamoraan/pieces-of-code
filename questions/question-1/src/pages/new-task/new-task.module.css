@@ -1,0 +1,42 @@
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255,0.7);
+}
+
+.modal {
+    width: min(100%, 800px);
+    height: min(100%, 800px);
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.12 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.form {
+    padding: 24px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form input[type=text] {
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    outline: none;
+}
+
+.form button[type=submit] {
+    margin-top: auto;
+    align-self: flex-end;
+}

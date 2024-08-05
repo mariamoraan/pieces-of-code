@@ -1,0 +1,48 @@
+.sidebar {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid gainsboro;
+}
+
+.header {
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: larger;
+    border-bottom: 1px solid gainsboro;
+}
+
+.links {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: gray;
+    text-decoration: none;
+}
+
+.footer {
+    padding: 24px;
+}
+
+.button-link {
+    padding: 8px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background: black;
+    color: white;
+    border-radius: 12px;
+}
